@@ -22,10 +22,9 @@ chmod 755 build.sh
 
 - ローカル上で作成された　sendgrid_lambda/dist/lambda.zipをアップロード
 
-- SENDGRID_API_KEYの環境変数にSendgridのアカウントで発行したAPIキーを入れる
+- Lambdaの環境変数に、SENDGRID_API_KEY=<Sendgridのアカウントで発行したAPIキー>を入れる
 
 - `from_email`,`to_emails`,`subject`,`html_content`の値を変更（to_emailsはメールを送りたいメールアドレスに設定）
 
 - 関数を実行
-
-# my_test_sendgrid
+- 送り先のメールアドレスの受信Boxを確認
