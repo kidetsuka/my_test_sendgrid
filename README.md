@@ -15,6 +15,7 @@ cd my_test_sendgrid
 cd sendgrid_lamda
 touch build.sh
 chmod 755 build.sh
+./build.sh
 ```
 2. AWS Console上での作業
 
